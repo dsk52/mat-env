@@ -1,9 +1,2 @@
-'use strict';
-
-var foo = 'hello world!';
-
-var main = function () {
-    console.log(foo);
-};
-
-module.exports = main;
+var main=function(){"use strict";return function(){console.log("hello world!")}}();
+//# sourceMappingURL=bundle.js.map
