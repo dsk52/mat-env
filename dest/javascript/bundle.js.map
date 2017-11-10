@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["../../src/javascript/main.js","../../src/javascript/foo.js"],"sourcesContent":["import foo from './foo.js';\nexport default function () {\n    console.log(foo);\n}\n","export default 'hello world!';\n"],"names":["log"],"mappings":"2DAEYA,ICFG"}

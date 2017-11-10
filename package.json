@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:sass": "node-sass --importer node_modules/node-sass-globbing/index.js src/scss/style.scss assets/srylesheet/style.css --output-style compressed",
-    "build": "rollup -c -m"
+    "build:sass": "node-sass --importer node_modules/node-sass-globbing/index.js src/srylesheet/style.scss dest/srylesheet/style.css --output-style compressed",
+    "build:js": "rollup -c -m"
   },
   "author": "Daisuke KONISHI",
   "license": "MIT",

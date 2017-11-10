@@ -2,9 +2,9 @@ import babel from "rollup-plugin-babel"
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-    input: 'src/main.js',
+    input: 'src/javascript/main.js',
     output: {
-        file: 'assets/bundle.js',
+        file: 'dest/javascript/bundle.js',
         format: 'iife',
         name: 'main',
     },
