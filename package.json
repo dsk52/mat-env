@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:sass": "node-sass --importer node_modules/node-sass-globbing/index.js src/srylesheet/style.scss dest/srylesheet/style.css --output-style compressed",
-    "build:js": "rollup -c -m"
+    "start": "npm-run-all -p watch:*",
+    "build:sass": "node-sass --importer node_modules/node-sass-globbing/index.js src/stylesheet/style.scss dest/stylesheet/style.css --output-style compressed",
+    "build:js": "rollup -c -m",
+    "build": "npm-run-all build:*",
+    "watch:sass": "watch 'npm run build:sass' ./src/stylesheet/",
+    "watch:js": "watch 'npm run build:js' ./src/javascript/"
   },
   "author": "Daisuke KONISHI",
   "license": "MIT",
@@ -18,5 +22,9 @@
     "rollup": "^0.51.2",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-uglify": "^2.0.1"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.2",
+    "watch": "^1.0.2"
   }
 }
