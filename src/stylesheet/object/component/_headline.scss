@@ -1,0 +1,15 @@
+.c-headline {
+  font-size: 1.6em;
+
+  &--sub {
+    font-size: 1.4em;
+  }
+
+  &--en {
+    @include font-en;
+  }
+
+  &--jp {
+    @include font-jp;
+  }
+}

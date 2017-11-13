@@ -1,4 +1,16 @@
-@charset 'utf-8';
+@charset "UTF-8";
 
-@import 'component/*';
+@import "foundation/_sanitize";
+@import "foundation/_user-reset";
+@import 'vender/*';
 
+@import '_variables';
+@import "_mixin";
+@import "_placeholder";
+
+@import "foundation/_fonts";
+@import "foundation/_base";
+
+@import "object/component/*";
+@import "object/project/*";
+@import "object/utility/*";

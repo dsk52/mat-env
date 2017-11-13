@@ -1,0 +1,18 @@
+// User's Base Style
+html,
+body {
+  background-color: $color-primary;
+  line-height: 1.6;
+  font-family: $font-jp;
+  font-size: $font-base-size;
+  color: $font-color-base;
+}
+
+main {
+  display: block;
+}
+
+button {
+  appearance: none;
+  border: none;
+}
