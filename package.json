@@ -11,6 +11,7 @@
     "watch:sass": "watch 'npm run build:sass' ./src/stylesheet/",
     "watch:js": "watch 'npm run build:js' ./src/javascript/",
     "lint": "eslint src"
+    "styleguide": "./node_modules/.bin/aigis run -c ./aigis/aigis_config.yml"
   },
   "author": "Daisuke KONISHI",
   "license": "MIT",
@@ -23,6 +24,7 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "node-aigis": "^1.4.1",
     "node-sass": "^4.6.0",
     "node-sass-globbing": "0.0.23",
     "rollup": "^0.51.2",

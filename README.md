@@ -6,21 +6,29 @@ web starting base mat
 
 ## feature
 
-- Babel (Rollup)
+- Rollup
+    - Babel
     - Uglify
     - Sourcemap
 - Sass(.scss)
 - editorconfig
+
+- [aigis](https://aigis-styleguide.github.io/aigis/): styleguide
 
 ## Usage
 Expand this file into your project. (git clone or wget ...)
 
 ```
 $ npm i
+```
 
+use some command.
+
+```
 $ npm start  // watch js and sass(.scss)
 $ npm run build // build js and sass(.scss)
-$ npm run build:sass  // build only sass file (also js file)
+$ npm run build:sass  // build only sass file
+$ npm run build:js  // build only js file
 ```
 
 
