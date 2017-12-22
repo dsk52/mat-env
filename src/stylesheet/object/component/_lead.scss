@@ -1,0 +1,9 @@
+.c-lead {
+  line-height: 1.6;
+  font-size: $font-base-size;
+  color: $font-color-base;
+
+  & + & {
+    margin-top: 0.8em;
+  }
+}

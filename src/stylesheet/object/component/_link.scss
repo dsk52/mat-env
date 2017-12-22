@@ -1,0 +1,23 @@
+/*
+---
+name: Buttons
+category:
+  - component
+---
+
+Button styles.
+
+```html
+<a class="c-button">Button</a>
+```
+*/
+
+.c-link {
+  text-decoration: underline;
+  color: $color-link;
+  transition: 0.2s $ease-out-quart 0s;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
