@@ -9,7 +9,8 @@
     "build:js": "rollup -c -m",
     "build": "npm-run-all build:*",
     "watch:sass": "watch 'npm run build:sass' ./src/stylesheet/",
-    "watch:js": "watch 'npm run build:js' ./src/javascript/"
+    "watch:js": "watch 'npm run build:js' ./src/javascript/",
+    "styleguide": "./node_modules/.bin/aigis run -c ./aigis/aigis_config.yml"
   },
   "author": "Daisuke KONISHI",
   "license": "MIT",
@@ -17,6 +18,7 @@
     "babel-core": "^6.26.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
+    "node-aigis": "^1.4.1",
     "node-sass": "^4.6.0",
     "node-sass-globbing": "0.0.23",
     "rollup": "^0.51.2",

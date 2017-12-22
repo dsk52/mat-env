@@ -231,5 +231,6 @@ typings/
 # dotenv environment variables file
 .env
 
-
+# aigis styleguide generater
+styleguide/
 
