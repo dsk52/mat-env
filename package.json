@@ -28,7 +28,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "node-aigis": "^1.4.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.11.0",
     "node-sass-globbing": "0.0.23",
     "npm-run-all": "^4.1.2",
     "pug": "^2.0.0-rc.4",
