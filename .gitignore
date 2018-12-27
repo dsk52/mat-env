@@ -234,3 +234,4 @@ typings/
 # aigis styleguide generater
 styleguide/
 
+/dest/
