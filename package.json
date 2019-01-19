@@ -13,7 +13,8 @@
     "watch:sass": "watch 'npm run build:sass' ./src/stylesheet/",
     "watch:js": "watch 'npm run build:js' ./src/javascript/",
     "styleguide": "./node_modules/.bin/aigis run -c ./aigis/aigis_config.yml",
-    "eslint": "./node_modules/.bin/eslint src/javascript/**/*.js"
+    "eslint": "./node_modules/.bin/eslint src/javascript/**/*.js",
+    "safetyupdate": "echo '{}' > safety-update.config.json && npx npm-safety-updater patch --only-dev"
   },
   "author": "Daisuke KONISHI",
   "license": "MIT",
@@ -30,11 +31,11 @@
     "node-aigis": "^1.4.1",
     "node-sass": "^4.11.0",
     "node-sass-globbing": "0.0.23",
-    "npm-run-all": "^4.1.2",
+    "npm-run-all": "^4.1.5",
     "pug": "^2.0.0-rc.4",
     "pug-cli": "git+https://github.com/pugjs/pug-cli.git",
     "rollup": "^0.55.1",
-    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-uglify": "^3.0.0",
     "watch": "^1.0.2"
   }
