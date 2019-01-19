@@ -235,3 +235,6 @@ typings/
 styleguide/
 
 /dest
+
+
+safety-update.config.json
