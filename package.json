@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p watch:*",
-    "build:pug": "pug src/pug/ --hierarchy -o dest -P",
+    "init": "git clone https://github.com/d-kusk/mat.git src/",
     "build:sass": "node-sass --importer node_modules/node-sass-globbing/index.js src/stylesheet/style.scss dest/stylesheet/style.css --output-style compressed",
     "build:js": "rollup -c -m",
     "build": "npm-run-all build:*",
-    "watch:pug": "watch 'npm run build:pug' ./src/pug/",
     "watch:sass": "watch 'npm run build:sass' ./src/stylesheet/",
     "watch:js": "watch 'npm run build:js' ./src/javascript/",
     "styleguide": "./node_modules/.bin/aigis run -c ./aigis/aigis_config.yml",
@@ -32,9 +31,7 @@
     "node-sass": "^4.12.0",
     "node-sass-globbing": "0.0.23",
     "npm-run-all": "^4.1.5",
-    "pug": "^2.0.4",
-    "pug-cli": "git+https://github.com/pugjs/pug-cli.git",
-    "rollup": "^1.17.0",
+    "rollup": "^1.22.0",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-uglify": "^3.0.0",
     "watch": "^1.0.2"
