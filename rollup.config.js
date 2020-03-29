@@ -11,8 +11,5 @@ export default {
   plugins: [
     babel(),
     uglify()
-  ],
-  global: {
-    // jquery: '$'  // When using jquery, it must be active.
-  }
+  ]
 }
