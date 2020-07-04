@@ -13,7 +13,7 @@
     "watch:js": "watch 'npm run build:js' ./mat/src/javascript/",
     "styleguide": "./node_modules/.bin/aigis run -c ./aigis/aigis_config.yml",
     "eslint": "./node_modules/.bin/eslint src/javascript/**/*.js",
-    "safetyupdate": "echo '{}' > safety-update.config.json && npx npm-safety-updater minor patch --only-dev"
+    "safetyupdate": "echo '{}' > safety-update.config.json && npx npm-safety-updater minor patch"
   },
   "author": "Daisuke KONISHI",
   "license": "MIT",
@@ -23,11 +23,11 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "node-sass-globbing": "0.0.23",
     "npm-run-all": "^4.1.5",
     "rollup": "^1.32.1",
